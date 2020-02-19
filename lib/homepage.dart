@@ -7,10 +7,9 @@ class Homepage extends StatelessWidget {
 
     return Scaffold(       
         body: Center(
-          child: RaisedButton(
-            child: Text('Next Page'),
-            color: Colors.amber,
-            textColor: Colors.black,
+          child: FloatingActionButton(
+            child: Text('>'),
+            backgroundColor: Colors.blue,
             onPressed: () {
               Navigator.push(context, MaterialPageRoute( builder: (context) => FirstRoute()));
             }

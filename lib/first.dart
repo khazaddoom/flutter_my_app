@@ -5,10 +5,10 @@ class FirstRoute extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('First Route'),
+        title: Text('Details Page'),        
       ),
       body: Center(
-        child: Text('Hmm Something happened!!!'),
+        child: Text('My Page Contents'),
         ),
       );
   }
