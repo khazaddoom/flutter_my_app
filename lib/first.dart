@@ -8,7 +8,7 @@ class FirstRoute extends StatelessWidget {
         title: Text('Details Page'),        
       ),
       body: Center(
-        child: Text('My Page Contents'),
+        child: Something(),
         ),
       );
   }
@@ -22,9 +22,17 @@ class Something extends StatefulWidget {
 }
 
 class SomethingState extends State {
+  String temperature = '37';
   @override
   Widget build(BuildContext context) {
-    return null;
+
+    setState(() {
+      temperature = '37';
+    });
+
+    return Center(
+        child: Text(temperature),
+    );
   }
   
 }
