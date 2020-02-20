@@ -13,3 +13,18 @@ class FirstRoute extends StatelessWidget {
       );
   }
 }
+
+
+class Something extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() => SomethingState();
+  
+}
+
+class SomethingState extends State {
+  @override
+  Widget build(BuildContext context) {
+    return null;
+  }
+  
+}
